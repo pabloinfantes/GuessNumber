@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="numIntentos">Dime el numero de intentos</string>
+    <string name="Intentos">Intentos: </string>
+    <string name="edNombre">Dime el nombre</string>
+    <string name="tvNombre">Nombre: </string>
+    <string name="btnJugar">¡A jugar!</string>
+    <string name="btComprobar">Comprobar</string>
+    <string name="btBorrar">Borrar</string>
+    <string name="tvMayor">Mayor</string>
+    <string name="tvMenor">Menor</string>
+    <string name="tvIntentalo">"Intentalo: "</string>
+    <string name="num">Dime el número</string>
+    <string name="tvGanaste">Has acertado </string>
+    <string name="tvPerdiste">Has perdido</string>
+</resources>

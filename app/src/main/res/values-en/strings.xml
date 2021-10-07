@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="numIntentos">Tell me the number of attempts</string>
+    <string name="Intentos">Attemps:</string>
+    <string name="edNombre">Tell me the name</string>
+    <string name="tvNombre">Name:</string>
+    <string name="btnJugar">¡Play!</string>
+    <string name="num">Tell me the number</string>
+    <string name="tvMayor">Higher</string>
+    <string name="tvMenor">Lower</string>
+    <string name="tvIntentalo">Try it:</string>
+    <string name="btComprobar">Check</string>
+    <string name="btBorrar">Delete</string>
+    <string name="tvGanaste">Has ganado</string>
+</resources>
