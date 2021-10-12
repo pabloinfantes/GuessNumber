@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">GuessNumber</string>
     <string name="numIntentos">Tell me the number of attempts</string>
-    <string name="Intentos">Attemps:</string>
+    <string name="Intentos">Attemps</string>
     <string name="edNombre">Tell me the name</string>
     <string name="tvNombre">Name:</string>
     <string name="btnJugar">¡Play!</string>
@@ -12,5 +12,10 @@
     <string name="tvIntentalo">Try it:</string>
     <string name="btComprobar">Check</string>
     <string name="btBorrar">Delete</string>
-    <string name="tvGanaste">Has ganado</string>
+    <string name="tvGanaste">You Win</string>
+    <string name="tvPerdiste">You lose</string>
+    <string name="tvNumEnteros">The value of the attempts field must be a positive integer</string>
+    <string name="tvVacios">Fields cannot be empty</string>
+    <string name="tvQuedaban">, and he had:</string>
+    <string name="tvGanador">, and the winning number is:</string>
 </resources>

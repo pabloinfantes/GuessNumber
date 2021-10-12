@@ -2,6 +2,11 @@ package com.example.guessnumber.data.model;
 
 import java.io.Serializable;
 
+/**
+ * Es la clase encargada de recoger los datos del jugador, tanto el numero de intentos como el nombre del mismo.
+ * @author pablo
+ * @version 1.0
+ */
 public class Message implements Serializable {
     String nombre;
     int intento;

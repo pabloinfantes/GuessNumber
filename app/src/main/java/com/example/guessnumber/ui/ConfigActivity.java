@@ -12,6 +12,12 @@ import com.example.guessnumber.R;
 import com.example.guessnumber.data.model.Message;
 import com.example.guessnumber.databinding.ActivityConfigBinding;
 
+/**
+ * Es la clase que recoge la funcionalidad del botón jugar y manda la informacion
+ * recogida por los usuarios a la siguiente activity
+ * @author pablo
+ * @version 1.0
+ */
 public class ConfigActivity extends AppCompatActivity {
 
     ActivityConfigBinding binding;
@@ -33,7 +39,7 @@ public class ConfigActivity extends AppCompatActivity {
         }
     }
 
-    private void showMessage(String mensaje) {
+    private void showMessage(int mensaje) {
         Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show();
     }
 
@@ -50,10 +56,10 @@ public class ConfigActivity extends AppCompatActivity {
                 intent.putExtras(bundle);
                 startActivity(intent);
             } else {
-                showMessage("El valor del campo intentos debe ser un numero entero positivo");
+                showMessage(R.string.tvNumEnteros);
             }
         } else {
-            showMessage("Los campos no pueden estar vacíos");
+            showMessage(R.string.tvVacios);
         }
     }
 
